@@ -1,0 +1,324 @@
+Get:1 https://deb.debian.org/debian bullseye InRelease [116 kB]
+Get:2 https://security.debian.org/debian-security bullseye-security InRelease [27.2 kB]
+Get:3 https://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+Get:4 https://deb.debian.org/debian bullseye-backports InRelease [49.0 kB]
+Get:5 https://security.debian.org/debian-security bullseye-security/main Sources [238 kB]
+Get:6 https://security.debian.org/debian-security bullseye-security/main amd64 Packages [369 kB]
+Get:7 https://security.debian.org/debian-security bullseye-security/main Translation-en [245 kB]
+Get:8 https://deb.debian.org/debian bullseye/main Sources [8500 kB]
+Get:9 https://deb.debian.org/debian bullseye/main amd64 Packages [8066 kB]
+Get:10 https://deb.debian.org/debian bullseye/main Translation-en [6235 kB]
+Get:11 https://deb.debian.org/debian bullseye-updates/main Sources [7908 B]
+Get:12 https://deb.debian.org/debian bullseye-updates/main amd64 Packages [18.8 kB]
+Get:13 https://deb.debian.org/debian bullseye-updates/main Translation-en [10.9 kB]
+Get:14 https://deb.debian.org/debian bullseye-backports/main Sources [376 kB]
+Get:15 https://deb.debian.org/debian bullseye-backports/main amd64 Packages [403 kB]
+Get:16 https://deb.debian.org/debian bullseye-backports/main Translation-en [344 kB]
+Fetched 25.0 MB in 5s (5106 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap libcurl4 liblua5.3-0 ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap libcurl4 liblua5.3-0 sshpass
+  ssl-cert
+0 upgraded, 12 newly installed, 0 to remove and 89 not upgraded.
+Need to get 2913 kB of archives.
+After this operation, 9385 kB of additional disk space will be used.
+Get:1 https://security.debian.org/debian-security bullseye-security/main amd64 libcurl4 amd64 7.74.0-1.3+deb11u14 [348 kB]
+Get:2 https://deb.debian.org/debian bullseye/main amd64 libapr1 amd64 1.7.0-6+deb11u2 [106 kB]
+Get:3 https://deb.debian.org/debian bullseye/main amd64 libaprutil1 amd64 1.6.1-5+deb11u1 [92.3 kB]
+Get:4 https://deb.debian.org/debian bullseye/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-5+deb11u1 [19.0 kB]
+Get:5 https://deb.debian.org/debian bullseye/main amd64 libaprutil1-ldap amd64 1.6.1-5+deb11u1 [17.2 kB]
+Get:6 https://security.debian.org/debian-security bullseye-security/main amd64 apache2-bin amd64 2.4.62-1~deb11u2 [1453 kB]
+Get:7 https://deb.debian.org/debian bullseye/main amd64 liblua5.3-0 amd64 5.3.3-1.1+deb11u1 [123 kB]
+Get:8 https://deb.debian.org/debian bullseye/main amd64 sshpass amd64 1.09-1+b1 [13.0 kB]
+Get:9 https://deb.debian.org/debian bullseye/main amd64 ssl-cert all 1.1.0+nmu1 [21.0 kB]
+Get:10 https://security.debian.org/debian-security bullseye-security/main amd64 apache2-data all 2.4.62-1~deb11u2 [160 kB]
+Get:11 https://security.debian.org/debian-security bullseye-security/main amd64 apache2-utils amd64 2.4.62-1~deb11u2 [273 kB]
+Get:12 https://security.debian.org/debian-security bullseye-security/main amd64 apache2 amd64 2.4.62-1~deb11u2 [287 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 2913 kB in 4s (766 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 25140 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.7.0-6+deb11u2_amd64.deb ...
+Unpacking libapr1:amd64 (1.7.0-6+deb11u2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../03-libaprutil1-ldap_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../04-libcurl4_7.74.0-1.3+deb11u14_amd64.deb ...
+Unpacking libcurl4:amd64 (7.74.0-1.3+deb11u14) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../05-liblua5.3-0_5.3.3-1.1+deb11u1_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.3-1.1+deb11u1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../06-apache2-bin_2.4.62-1~deb11u2_amd64.deb ...
+Unpacking apache2-bin (2.4.62-1~deb11u2) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../07-apache2-data_2.4.62-1~deb11u2_all.deb ...
+Unpacking apache2-data (2.4.62-1~deb11u2) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../08-apache2-utils_2.4.62-1~deb11u2_amd64.deb ...
+Unpacking apache2-utils (2.4.62-1~deb11u2) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../09-apache2_2.4.62-1~deb11u2_amd64.deb ...
+Unpacking apache2 (2.4.62-1~deb11u2) ...
+Selecting previously unselected package sshpass.
+Preparing to unpack .../10-sshpass_1.09-1+b1_amd64.deb ...
+Unpacking sshpass (1.09-1+b1) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../11-ssl-cert_1.1.0+nmu1_all.deb ...
+Unpacking ssl-cert (1.1.0+nmu1) ...
+Setting up libapr1:amd64 (1.7.0-6+deb11u2) ...
+Setting up sshpass (1.09-1+b1) ...
+Setting up ssl-cert (1.1.0+nmu1) ...
+Setting up liblua5.3-0:amd64 (5.3.3-1.1+deb11u1) ...
+Setting up libcurl4:amd64 (7.74.0-1.3+deb11u14) ...
+Setting up apache2-data (2.4.62-1~deb11u2) ...
+Setting up libaprutil1:amd64 (1.6.1-5+deb11u1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-5+deb11u1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1) ...
+Setting up apache2-utils (2.4.62-1~deb11u2) ...
+Setting up apache2-bin (2.4.62-1~deb11u2) ...
+Setting up apache2 (2.4.62-1~deb11u2) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u6) ...
+Enabling module proxy.
+Considering dependency proxy for proxy_http:
+Module proxy already enabled
+Enabling module proxy_http.
+To activate the new configuration, you need to run:
+  systemctl restart apache2
+Created directory '/home/bastion/.ssh'.
+Generating public/private rsa key pair.
+Your identification has been saved in /home/bastion/.ssh/id_rsa
+Your public key has been saved in /home/bastion/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:ZSQYk3s+FIUWZnf7hNLI54/lWqjWbTcYgCOt/DCX0CI bastion@bastion
+The key's randomart image is:
++---[RSA 3072]----+
+|      o+=++ .    |
+|      o++= + o   |
+|       oo.B = .  |
+|     E.+oB = o   |
+|      o+S o o o  |
+|       =oo   B   |
+|        =. .o.*  |
+|         ....+o..|
+|         .. .. ..|
++----[SHA256]-----+
+Copie clé SSH vers clientweb@192.168.56.81
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/bastion/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+clientweb@192.168.56.81: Permission denied (publickey).
+Copie clé SSH vers clientbdd@192.168.56.82
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/bastion/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+clientbdd@192.168.56.82: Permission denied (publickey).
+Get:1 https://security.debian.org/debian-security bullseye-security InRelease [27.2 kB]
+Get:2 https://deb.debian.org/debian bullseye InRelease [116 kB]
+Get:3 https://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+Get:4 https://deb.debian.org/debian bullseye-backports InRelease [49.0 kB]
+Get:5 https://security.debian.org/debian-security bullseye-security/main Sources [238 kB]
+Get:6 https://security.debian.org/debian-security bullseye-security/main amd64 Packages [369 kB]
+Get:7 https://security.debian.org/debian-security bullseye-security/main Translation-en [245 kB]
+Get:8 https://deb.debian.org/debian bullseye/main Sources [8500 kB]
+Get:9 https://deb.debian.org/debian bullseye/main amd64 Packages [8066 kB]
+Get:10 https://deb.debian.org/debian bullseye/main Translation-en [6235 kB]
+Get:11 https://deb.debian.org/debian bullseye-updates/main Sources [7908 B]
+Get:12 https://deb.debian.org/debian bullseye-updates/main amd64 Packages [18.8 kB]
+Get:13 https://deb.debian.org/debian bullseye-updates/main Translation-en [10.9 kB]
+Get:14 https://deb.debian.org/debian bullseye-backports/main Sources [376 kB]
+Get:15 https://deb.debian.org/debian bullseye-backports/main amd64 Packages [403 kB]
+Get:16 https://deb.debian.org/debian bullseye-backports/main Translation-en [344 kB]
+Fetched 25.0 MB in 5s (5102 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap libcurl4 liblua5.3-0 ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap libcurl4 liblua5.3-0 sshpass
+  ssl-cert
+0 upgraded, 12 newly installed, 0 to remove and 89 not upgraded.
+Need to get 2913 kB of archives.
+After this operation, 9385 kB of additional disk space will be used.
+Get:1 https://security.debian.org/debian-security bullseye-security/main amd64 libcurl4 amd64 7.74.0-1.3+deb11u14 [348 kB]
+Get:2 https://deb.debian.org/debian bullseye/main amd64 libapr1 amd64 1.7.0-6+deb11u2 [106 kB]
+Get:3 https://deb.debian.org/debian bullseye/main amd64 libaprutil1 amd64 1.6.1-5+deb11u1 [92.3 kB]
+Get:4 https://deb.debian.org/debian bullseye/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-5+deb11u1 [19.0 kB]
+Get:5 https://deb.debian.org/debian bullseye/main amd64 libaprutil1-ldap amd64 1.6.1-5+deb11u1 [17.2 kB]
+Get:6 https://deb.debian.org/debian bullseye/main amd64 liblua5.3-0 amd64 5.3.3-1.1+deb11u1 [123 kB]
+Get:7 https://security.debian.org/debian-security bullseye-security/main amd64 apache2-bin amd64 2.4.62-1~deb11u2 [1453 kB]
+Get:8 https://deb.debian.org/debian bullseye/main amd64 sshpass amd64 1.09-1+b1 [13.0 kB]
+Get:9 https://deb.debian.org/debian bullseye/main amd64 ssl-cert all 1.1.0+nmu1 [21.0 kB]
+Get:10 https://security.debian.org/debian-security bullseye-security/main amd64 apache2-data all 2.4.62-1~deb11u2 [160 kB]
+Get:11 https://security.debian.org/debian-security bullseye-security/main amd64 apache2-utils amd64 2.4.62-1~deb11u2 [273 kB]
+Get:12 https://security.debian.org/debian-security bullseye-security/main amd64 apache2 amd64 2.4.62-1~deb11u2 [287 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 2913 kB in 0s (7888 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 25140 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.7.0-6+deb11u2_amd64.deb ...
+Unpacking libapr1:amd64 (1.7.0-6+deb11u2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../03-libaprutil1-ldap_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../04-libcurl4_7.74.0-1.3+deb11u14_amd64.deb ...
+Unpacking libcurl4:amd64 (7.74.0-1.3+deb11u14) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../05-liblua5.3-0_5.3.3-1.1+deb11u1_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.3-1.1+deb11u1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../06-apache2-bin_2.4.62-1~deb11u2_amd64.deb ...
+Unpacking apache2-bin (2.4.62-1~deb11u2) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../07-apache2-data_2.4.62-1~deb11u2_all.deb ...
+Unpacking apache2-data (2.4.62-1~deb11u2) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../08-apache2-utils_2.4.62-1~deb11u2_amd64.deb ...
+Unpacking apache2-utils (2.4.62-1~deb11u2) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../09-apache2_2.4.62-1~deb11u2_amd64.deb ...
+Unpacking apache2 (2.4.62-1~deb11u2) ...
+Selecting previously unselected package sshpass.
+Preparing to unpack .../10-sshpass_1.09-1+b1_amd64.deb ...
+Unpacking sshpass (1.09-1+b1) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../11-ssl-cert_1.1.0+nmu1_all.deb ...
+Unpacking ssl-cert (1.1.0+nmu1) ...
+Setting up libapr1:amd64 (1.7.0-6+deb11u2) ...
+Setting up sshpass (1.09-1+b1) ...
+Setting up ssl-cert (1.1.0+nmu1) ...
+Setting up liblua5.3-0:amd64 (5.3.3-1.1+deb11u1) ...
+Setting up libcurl4:amd64 (7.74.0-1.3+deb11u14) ...
+Setting up apache2-data (2.4.62-1~deb11u2) ...
+Setting up libaprutil1:amd64 (1.6.1-5+deb11u1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-5+deb11u1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1) ...
+Setting up apache2-utils (2.4.62-1~deb11u2) ...
+Setting up apache2-bin (2.4.62-1~deb11u2) ...
+Setting up apache2 (2.4.62-1~deb11u2) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u6) ...
+Enabling module proxy.
+Considering dependency proxy for proxy_http:
+Module proxy already enabled
+Enabling module proxy_http.
+To activate the new configuration, you need to run:
+  systemctl restart apache2
+Created directory '/home/bastion/.ssh'.
+Generating public/private rsa key pair.
+Your identification has been saved in /home/bastion/.ssh/id_rsa
+Your public key has been saved in /home/bastion/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:QQFGed54Eo5nKOcQvyU9RpvYsn5iZK95R8orLrhXPnk bastion@bastion
+The key's randomart image is:
++---[RSA 3072]----+
+|     .+oo.       |
+|    ....+        |
+|     o @.*       |
+|    o O /.o      |
+|     = XS+       |
+|      B   .      |
+|   . * + o       |
+|  . o O.E .      |
+|  .o ++O.o       |
++----[SHA256]-----+
+Copie clé SSH vers clientweb@192.168.56.81
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/bastion/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+clientweb@192.168.56.81: Permission denied (publickey).
+Copie clé SSH vers clientbdd@192.168.56.82
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/bastion/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+clientbdd@192.168.56.82: Permission denied (publickey).
+Enabling site myadmin.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+Enabling module rewrite.
+To activate the new configuration, you need to run:
+  systemctl restart apache2
