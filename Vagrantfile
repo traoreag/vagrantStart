@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
     "bastion" => { ip: "192.168.56.83", script: "scripts/install_bastion.sh" }
   }
 
-  config.vm.box = "debian/bullseye64"
+  config.vm.box = "debian/bookworm64"
 
   vm_configs.each do |name, settings|
     config.vm.define name do |vm|
